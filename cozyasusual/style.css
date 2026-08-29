@@ -56,6 +56,7 @@ a{color:inherit}
 .nav__right a{font-size:12px;letter-spacing:.24em;text-transform:uppercase;text-decoration:none}
 .nav__house{opacity:.5}
 .nav__house:hover{opacity:1}
+.nav__home{display:none}
 
 /* mobile nav */
 .nav__toggle{display:none;background:none;border:0;font:inherit;font-size:12px;letter-spacing:.24em;text-transform:uppercase;cursor:pointer}
@@ -67,6 +68,7 @@ a{color:inherit}
   }
   .nav__links.is-open{display:flex}
   .nav__links li a{display:block;padding:18px;border-bottom:1px solid var(--line)}
+  .nav__home{display:block}
   .nav__toggle{display:block}
   .nav__right .nav__house{display:none}
 }
